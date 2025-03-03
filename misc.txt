@@ -1,0 +1,8 @@
+WAYS TO ACCESS VECTOR2<T> VARIABLES
+v1.x = 18.2f;
+float y = v1.y;
+
+NOTES:
+	-To draw a GameObject, simply do "window.draw(gameObject.getSprite());"
+	-Sprite has a move function already built in! Chick what other goodies SFML is hiding in the Sprite class
+		(https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Sprite.php)
