@@ -1,0 +1,34 @@
+NOTES:
+	-To draw a GameObject, simply do "window.draw(gameObject.getSprite());"
+	-Sprite has a move function already built in! Check what other goodies SFML is hiding in the Sprite class
+		(https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Sprite.php)
+	-The Shot class's fireIfReady() must first check if the target != nullptr
+	-Use SFML getPosition() for (x,y) position of objects, NOT the getOrigin()
+
+TODO:
+	-Figure out how all the Game and GameVariable and Wave objects are going to conglomerate
+	-Rethink Tower, TowerDecorator, and TroopTower. Maybe they can all be simplified to a base
+		Tower class and a derived TroopTower class?
+	-Figure out the findNearestEnemy() function. Also, what are the exact "ranges" of action
+		for each warrior?
+
+
+
+
+wait, wait, let me explain:
+	I have literally no idea how to manage classes in C++ (one file per class doesn't work here) so
+I'm just including them all in one, monstrously long "ChessGame.cpp" file and praying that dropdown arrows
+will make it readable. I'm optimistic that converting the big document into cute, chunky header files will be
+fairly easy, so that's a problem for later.
+	I don't really understand memory management or pointers, so I'm leaning really heavily into OOP design here
+to try and get around that problem. I understand that C++ is not Java, but pointers are in chapter twelve of my online textbook
+and I'm still in chapter one.
+
+CONTACT INFO:
+If you are smart with C++ and have knowledge about structuring large programs with it, please contact
+me as I would be delighted to have an expert walk me through this stuff. You can examine the GitHub
+repository (labeled WarOfBoards) and then tell me everything I'm doing wrong. Also, say hi to my group
+partner, the graphics-making Cyrillic-reading machine, Summer.
+Email: waroftheboards@gmail.com
+Phone: (505) 362-9645
+	   (303) 717-5582

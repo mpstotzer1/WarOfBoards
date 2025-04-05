@@ -1,0 +1,26 @@
+﻿  ChessGame.cpp
+C:\VS_Projects\ChessGame\Warrior.h(38,27): error C2061: syntax error: identifier 'GameVariables'
+C:\VS_Projects\ChessGame\Warrior.h(53,21): error C2065: 'gv': undeclared identifier
+C:\VS_Projects\ChessGame\Warrior.h(53,34): error C2065: 'gv': undeclared identifier
+C:\VS_Projects\ChessGame\Warrior.h(72,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\VS_Projects\ChessGame\HelpfulFunctions.h(19,34): error C2065: 'Shot': undeclared identifier
+C:\VS_Projects\ChessGame\HelpfulFunctions.h(19,40): error C2065: 'shot': undeclared identifier
+C:\VS_Projects\ChessGame\HelpfulFunctions.h(19,45): error C2143: syntax error: missing ';' before '{'
+C:\VS_Projects\ChessGame\HelpfulFunctions.h(19,45): error C2447: '{': missing function header (old-style formal list?)
+C:\VS_Projects\ChessGame\Shot.h(52,18): error C2061: syntax error: identifier 'GameVariables'
+C:\VS_Projects\ChessGame\Shot.h(60,17): error C2061: syntax error: identifier 'GameVariables'
+C:\VS_Projects\ChessGame\Shot.h(58,9): error C2065: 'gv': undeclared identifier
+C:\VS_Projects\ChessGame\Shot.h(64,28): error C2065: 'gv': undeclared identifier
+C:\VS_Projects\ChessGame\Shot.h(200,19): error C2064: term does not evaluate to a function taking 1 arguments
+C:\VS_Projects\ChessGame\Shot.h(201,27): warning C4018: '<=': signed/unsigned mismatch
+C:\VS_Projects\ChessGame\Tower.h(66,27): warning C4018: '<': signed/unsigned mismatch
+C:\VS_Projects\ChessGame\ChessGame.cpp(22,14): warning C4244: 'initializing': conversion from 'sf::Int32' to 'float', possible loss of data
+C:\VS_Projects\ChessGame\ChessGame.cpp(28,51): warning C4244: '=': conversion from 'sf::Int32' to 'float', possible loss of data
+C:\VS_Projects\ChessGame\ChessGame.cpp(32,27): warning C4018: '<': signed/unsigned mismatch
+C:\VS_Projects\ChessGame\ChessGame.cpp(36,27): warning C4018: '<': signed/unsigned mismatch
+C:\VS_Projects\ChessGame\ChessGame.cpp(40,27): warning C4018: '<': signed/unsigned mismatch
+C:\VS_Projects\ChessGame\ChessGame.cpp(41,51): error C2660: 'Warrior::update': function does not take 2 arguments
+C:\VS_Projects\ChessGame\Warrior.h(38,10): message : see declaration of 'Warrior::update'
+C:\VS_Projects\ChessGame\ChessGame.cpp(47,27): warning C4018: '<': signed/unsigned mismatch
+C:\VS_Projects\ChessGame\ChessGame.cpp(51,27): warning C4018: '<': signed/unsigned mismatch
+C:\VS_Projects\ChessGame\ChessGame.cpp(55,27): warning C4018: '<': signed/unsigned mismatch
